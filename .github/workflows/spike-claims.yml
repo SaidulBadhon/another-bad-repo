@@ -10,4 +10,4 @@ jobs:
     permissions:
       contents: read
       id-token: write
-    uses: jutsuai/code-security/.github/workflows/spike-claims.yml@c3e91e542a74ea1a6747f9c69462f4fd0118fd8f
+    uses: jutsuai/code-security/.github/workflows/spike-claims.yml@f0ffe61c472b37067f0ae5b09cd134adce6b8b69
