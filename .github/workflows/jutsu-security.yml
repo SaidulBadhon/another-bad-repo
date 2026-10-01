@@ -12,4 +12,4 @@ jobs:
       id-token: write    # the report proves which workflow produced it
     uses: jutsuai/code-security/.github/workflows/scan.yml@3a2df2b613edfc4346d8d8dadd6a1fcf142c1047
     with:
-      api: https://api-beta.jutsu.ai
+      api: https://controvertibly-unstrict-leeanna.ngrok-free.dev
