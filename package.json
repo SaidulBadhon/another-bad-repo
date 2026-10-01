@@ -1,0 +1,6 @@
+{
+  "name": "another-bad-repo",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": { "lodash": "4.17.20" }
+}
