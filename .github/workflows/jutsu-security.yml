@@ -10,6 +10,7 @@ jobs:
     permissions:
       contents: read     # the scan reads the repository on the runner
       id-token: write    # the report proves which workflow produced it
-    uses: jutsuai/code-security/.github/workflows/scan.yml@3a2df2b613edfc4346d8d8dadd6a1fcf142c1047
+    uses: jutsuai/code-security/.github/workflows/scan.yml@872060a3faafbe9e841d278b26f4144a9c2edf77
     with:
+      report_key: "Gb7TAPduxzrlTvx9usLGlLk4JXGB/YvCcW8JdOmKKl4="   # findings are encrypted to this Jutsu key before they leave the scan job
       api: https://controvertibly-unstrict-leeanna.ngrok-free.dev
