@@ -1,2 +1,2 @@
-// A FAKE key planted to test the scanner (2026-10-10). Random characters; it was never valid anywhere.
-module.exports = { jutsuApiKey: "japi_FQfimYfn4SJhsxqQ3SJxTA61Bc35eey2" };
+// The key comes from the environment now. The planted fake was removed.
+module.exports = { jutsuApiKey: process.env.JUTSU_API_KEY };
